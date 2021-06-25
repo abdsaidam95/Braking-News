@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.haroonstudios.newsapitutorial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:5:5-67
+11-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:7:5-22:19
+14        android:allowBackup="true"
+14-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0] C:\Users\bit2019\.gradle\caches\transforms-2\files-2.1\00567bd0de14b33d1bf8a440dc72bff8\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher"
+19-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:11:9-48
+20        android:supportsRtl="true"
+20-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.haroonstudios.newsapitutorial.Activities.ListStackActivity" />
+22-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:14:9-75
+22-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:14:19-63
+23        <activity android:name="com.haroonstudios.newsapitutorial.Activities.MainActivity" >
+23-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:15:19-58
+24            <intent-filter>
+24-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:17:17-69
+25-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:19:17-77
+27-->H:\githup\News App Series\MyTutorial\NewsAppSeries\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[com.squareup.picasso:picasso:2.71828] C:\Users\bit2019\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+32            android:name="com.squareup.picasso.PicassoProvider"
+32-->[com.squareup.picasso:picasso:2.71828] C:\Users\bit2019\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:9:13-64
+33            android:authorities="com.haroonstudios.newsapitutorial.com.squareup.picasso"
+33-->[com.squareup.picasso:picasso:2.71828] C:\Users\bit2019\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:10:13-72
+34            android:exported="false" />
+34-->[com.squareup.picasso:picasso:2.71828] C:\Users\bit2019\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:11:13-37
+35    </application>
+36
+37</manifest>
